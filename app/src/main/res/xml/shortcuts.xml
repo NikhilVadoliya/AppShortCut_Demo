@@ -1,0 +1,53 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="25">
+    <shortcut
+        android:icon="@drawable/ic_user"
+        android:shortcutDisabledMessage="@string/user_one_disabled_message"
+        android:shortcutId="userone"
+        android:shortcutLongLabel="@string/user_one_long_label"
+        android:shortcutShortLabel="@string/user_one_short_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.pulse.appshortcutdemo.activities.DetailActvity"
+            android:targetPackage="com.pulse.appshortcutdemo">
+            <extra
+                android:name="key"
+                android:value="value_user_one" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/ic_user"
+        android:shortcutDisabledMessage="@string/user_two_disabled_message"
+        android:shortcutId="usertwo"
+        android:shortcutLongLabel="@string/user_two_long_label"
+        android:shortcutShortLabel="@string/user_two_short_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.pulse.appshortcutdemo.activities.DetailActvity"
+            android:targetPackage="com.pulse.appshortcutdemo">
+            <extra
+                android:name="key"
+                android:value="value_user_two" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/ic_user"
+        android:shortcutDisabledMessage="@string/user_three_disabled_message"
+        android:shortcutId="user"
+        android:shortcutLongLabel="@string/user_three_long_label"
+        android:shortcutShortLabel="@string/user_three_short_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.pulse.appshortcutdemo.activities.DetailActvity"
+            android:targetPackage="com.pulse.appshortcutdemo">
+            <extra
+                android:name="key"
+                android:value="value_user_three" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>

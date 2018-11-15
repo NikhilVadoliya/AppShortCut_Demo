@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppShortCutDemo</string>
+    <string name="user_one_short_label">One Short text</string>
+    <string name="user_one_long_label">One Long text Dynamic shortcuts should provide links to specific, context-sensitive actions within your app. These actions can change between uses of your app, and they can change even while your app is running.</string>
+    <string name="user_one_disabled_message">One Disable message</string>
+    <string name="user_two_short_label">Two Short text</string>
+    <string name="user_two_long_label">Two Long text Dynamic shortcuts should provide links to specific, context-sensitive actions within your app. These actions can change between uses of your app, and they can change even while your app is running.</string>
+    <string name="user_two_disabled_message">Two Disable message</string>
+    <string name="user_three_short_label">Three Short text</string>
+    <string name="user_three_long_label">Three Long text Dynamic shortcuts should provide links to specific, context-sensitive actions within your app. These actions can change between uses of your app, and they can change even while your app is running.</string>
+    <string name="user_three_disabled_message">Three Disable message</string>
+</resources>
